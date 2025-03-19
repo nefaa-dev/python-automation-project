@@ -1,0 +1,7 @@
+pandas==2.2.2
+requests==2.32.3
+python-dotenv==1.0.1
+dvc[s3]==3.53.0
+#playwright - this should be in base image on ci but if you're running scripts locally you'll need this
+# playwright install
+# playwright install-deps
